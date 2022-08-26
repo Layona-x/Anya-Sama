@@ -34,6 +34,8 @@ code:`
 $onlyIf[$getUserVar[level;$authorID]<=$getUserVar[lvlup;$authorID];{execute:levelup}]
 $setUserVar[level;$sum[$getUserVar[level;$authorID];$random[15;30]];$authorID]
 $onlyIf[$getVar[levelsistem]!=kapalı;]
+
+
 `
 })
 
@@ -189,3 +191,4 @@ a += 1
        res.render("anasayfa",{sw,botx,durum,tag,avatar,ping,command})
      
    })
+
